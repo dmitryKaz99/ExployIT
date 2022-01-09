@@ -1,2 +1,2 @@
-# ExployIT
-my site(creation new company)
+# проект - ExployIT
+Создание адаптивного сайта, компании по созданию сайтов
