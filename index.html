@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExployIT</title>
+
+    <!-- Fonts google -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@300;400;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon-package/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-package/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-package/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#603cba">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="page">
+        <!-- HEADER -->
+        <header class="header">
+            <div class="container">
+                <div class="header-inner">
+                    <a href="#" class="header-logo">Exploy<span>IT</span></a>
+                    <div class="nav">
+                        <a href="#" class="nav-link" data-scroll="#effects">Эффекты</a>
+                        <a href="#" class="nav-link" data-scroll="#awesome">Особенности</a>
+                        <a href="#" class="nav-link" data-scroll="#pricing">Цены</a>
+                        <a href="#" class="nav-link" data-scroll="#reviews">Отзывы</a>
+                        <a href="#" class="nav-link" data-scroll="#contact">Контакты</a>
+                    </div>
+                    <button class="burger" type="button" id="navToggle">
+                        <span class="burger-item">Menu</span>
+                    </button>
+                </div>
+                <!-- /.header-inner -->
+            </div>
+            <!-- /.container -->
+        </header>
+        <!-- /.header -->
+
+        <!-- INTRO -->
+        <div class="intro">
+            <div class="container">
+                <div class="intro-inner">
+                    <div class="intro-about">
+                        <h1 class="header-logo about-logo">Exploy<span>IT</span></h1>
+                        <div class="about-decoration">
+                            <h2 class="about-sup_title">Создание современных сайтов для клиентов</h2>
+                            <div class="about-streak intro-streak"></div>
+                        </div>
+                        <div class="about-sub_title">Наша команда разработчиков специализируется на коммерческих
+                            проектах, разрабатывая сайты для стран СНГ. В ознакомительных целях, можно скачать шаблон
+                            проекта:
+                        </div>
+                        <a download href="ExployIT PDF.pdf" class="download">
+                            <p>Загрузить</p>
+                        </a>
+                    </div>
+                    <!-- /.intro-about -->
+
+                    <div class="intro-input">
+                        <div class="input-inner">
+                            <div class="intro-form intro-form_top">
+                                <h3 class="intro-title intro-sup_title">Закажите <span>бесплатный</span> <br> звонок уже сейчас</h3>
+                            </div>
+                            <div class="intro-form  input-submit">
+                                <form class="form" action="#">
+                                    <div class="submit-inner">
+                                        <input required class="submit submit-padding" type="text" name="name" placeholder="Имя">
+                                        <br> 
+                                        <input required class="submit" type="tel" name="tel" placeholder="Телефон (+7)" pattern="^\+7\d{3}\d{7}$"  maxlength="12">
+                                        <br>
+                                        <input required  class="submit" type="text" name="city" placeholder="Город">
+                                    </div>
+                                    <button data-modal type="submit" class="intro-form intro-form_bottom intro-title intro-sub_title">Перезвонить</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.intro-input -->
+                </div>
+                <!-- /.intro-inner -->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.intro -->
+
+        <!-- SOCIAL -->
+        <div class="social">
+            <div class="container">
+                <div class="social-inner">
+                    <div class="social-media">
+                        <h3 class="social-title">Социальные сети</h3>
+                        <p class="social-text">Мы активно пополняем наше портфолию в социальных сетях, привлекая
+                            новых клиентов.</p>
+                    </div>
+                    <div class="social-icons">
+                        <a class="social-link" href="https://vk.com/" target="_blank">
+                            <i class="fab fa-vk fa-3x"></i>
+                        </a>
+                        <a class="social-link" href="https://www.instagram.com/?hl=ru" target="_blank">
+                            <i class="fab fa-instagram-square fa-3x"></i>
+                        </a>
+                        <a class="social-link" href="https://ru-ru.facebook.com/?nocaa=1" target="_blank">
+                            <i class="fab fa-facebook-f fa-3x"></i>
+                        </a>
+                        <a class="social-link" href="https://twitter.com/home" target="_blank">
+                            <i class="fab fa-twitter fa-3x"></i>
+                        </a>
+                        <a class="social-link" href="https://www.tiktok.com/ru-RU//" target="_blank">
+                            <i class="fab fa-tiktok fa-3x"></i>
+                        </a>
+                        <a class="social-link" href="https://www.youtube.com/" target="_blank">
+                            <i class="fab fa-youtube fa-3x"></i>
+                        </a>
+                    </div>
+                </div>
+                <!-- /.social-inner -->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.social -->
+
+        <!-- TABS -->
+        <div class="tabs" id="effects">
+            <div class="container">
+                <div class="social-inner">
+                    <div class="tabs-click"></div>
+                    <!-- tabs and items JS -->
+                </div>
+                <!-- /.social-inner -->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.tabs -->
+
+        <!-- SUBLIST -->
+        <div class="sublist">
+            <div class="container">
+                <div class="social-inner sublist-inner">
+                    <div>
+                        <img class="sublist-img" src="img/sublist/sublist-img.jpg" alt="sublist-img">
+                    </div>
+                    <div class="sublist-description">
+                        <div class="about-decoration decoration-orange">
+                            <h1 class="description-title">Подраздел списка</h1>
+                            <div class="about-streak streake-orange"></div>
+                        </div>
+                        <p class="description-text sablist-text_margin">Иногда возникает необходимость в упоминании
+                            того
+                            или иного момента. В этом случае, можно использовать <span>списки,</span> с помощью
+                            которых
+                            можно
+                            упорядочить текст.</p>
+                        <!-- sublist JS -->
+                    </div>
+                </div>
+                <!-- /.social-inner -->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.sublist -->
+
+        <!-- PICTURE SECTION -->
+        <div class="tabs picture">
+            <div class="container">
+                <div class="social-inner picture-inner">
+                    <div class="p-section_description">
+                        <div class="about-decoration decoration-orange">
+                            <h1 class="description-title">Раздел изображений</h1>
+                            <div class="about-streak streake-orange"></div>
+                        </div>
+                        <p class="description-text p-section_text_margin">Можно добавить <span>изображение</span>
+                            для
+                            необходимого
+                            раздела товаров в каталоге. Оно наглядно покажет содержание того, что интересно показать
+                            пользователям, а также будет выделять раздел товаров на фоне остальных.</p>
+                        <br>
+                        <p>Таким образом, можно придать сайту больее живой и динамический вид.</p>
+                    </div>
+                    <div>
+                        <img class="sublist-img" src="img/sublist/picture-section_img.jpg" alt="picture-section_img">
+                    </div>
+                </div>
+                <!-- /.social-inner -->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.tabs -->
+
+        <!-- AWESOME -->
+        <div class="sublist awesome" id="awesome">
+            <div class="container">
+                <div class="awesome-inner">
+                    <div class="about-decoration awesome-decoration">
+                        <h2 class="about-sup_title awesome-sup_title">Почему нас выбирают?</h2>
+                        <div class="about-streak streake-orange awesome-streake"></div>
+                    </div>
+                    <p class="description-text p-section_text_margin">Ниже представлено несколько ключевых
+                        <span>особенностей:</span>
+                    </p>
+                </div>
+                <div class="awesome-selection"></div>
+                <!-- awesome items JS -->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.awesome -->
+
+        <!-- PRICING -->
+        <div class="tabs pricing" id="pricing">
+            <div class="container">
+                <div class="awesome-inner">
+                    <div class="about-decoration awesome-decoration">
+                        <h2 class="about-sup_title awesome-sup_title">Варианты цен</h2>
+                        <div class="about-streak streake-orange awesome-streake"></div>
+                    </div>
+                    <p class="description-text p-section_text_margin">Ниже можно ознакомиться с вариантами
+                        <span>цен:</span>
+                    </p>
+                </div>
+                <div class="awesome-selection"></div>
+                <!-- pricing JS -->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.pricing -->
+
+        <!-- REVIEWS START-->
+        <div class="sublist reviews" id="reviews">
+            <div class="container">
+                <div class="awesome-inner">
+                    <div class="about-decoration awesome-decoration">
+                        <h2 class="about-sup_title awesome-sup_title reviews-width">Что говорят наши клиенты?</h2>
+                        <div class="about-streak streake-orange awesome-streake"></div>
+                    </div>
+                    <p class="description-text p-section_text_margin">Клиенты обращаются к нам,
+                        <span>потому что:</span>
+                    </p>
+                </div>
+                <div class="awesome-selection"></div>
+                <!-- reviews JS -->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.reviews -->
+
+        <div class="reviews-design">
+            <div class="container">
+                <div class="awesome-inner">
+                    <div class="about-decoration">
+                        <h2 class="about-sup_title design-title">Стильный дизайн</h2>
+                        <div class="about-streak awesome-streake"></div>
+                    </div>
+                    <p class="design-text">Погрузитесь в футуристический дизайн уже сейчас.</p>
+                </div>
+                <!-- /.awesome-inner -->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- REVIEWS END-->
+
+        <!-- CONTACT -->
+        <div class="sublist contact" id="contact">
+            <div class="container">
+                <div class="awesome-inner">
+                    <div class="about-decoration awesome-decoration">
+                        <h2 class="about-sup_title awesome-sup_title">Наши контакты</h2>
+                        <div class="about-streak streake-orange awesome-streake"></div>
+                    </div>
+                    <p class="description-text p-section_text_margin">Если возникли вопросы, Вы можете к нам
+                        <span>обратиться:</span>
+                    </p>
+                </div>
+                <div class="awesome-selection contact-section">
+                    <div class="contact-form">
+                        <form class="form" action="#">
+                            <div class="form-flex">
+                                <div class="form-one">
+                                    <input required  class="submit sumbit-contact" type="login" name="name" placeholder="Имя">
+                                        <br>
+                                    <input required  class="submit sumbit-contact" type="tel" name="tel" placeholder="Телефон (+7)" pattern="^\+7\d{3}\d{7}$"  maxlength="12">
+                                        <br>
+                                    <input required  class="submit sumbit-contact" type="text" name="city" placeholder="Город">
+                                </div>       
+                                <textarea class="submit form-textarea" name="message" placeholder="Сообщение" maxlength="521"></textarea>
+                            </div>
+                            <button data-modal type="submit" class="download-orange send-message">Перезвонить</button>
+                        </form>
+                    </div>
+                </div>
+                <!-- /.awesome-selection -->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.contact -->
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-inner">
+                    <div class="social-icons">
+                        <a class="footer-link" href="https://vk.com/" target="_blank">
+                            <i class="fab fa-vk fa-2x"></i>
+                        </a>
+                        <a class="footer-link" href="https://www.instagram.com/?hl=ru" target="_blank">
+                            <i class="fab fa-instagram-square fa-2x"></i>
+                        </a>
+                        <a class="footer-link" href="https://ru-ru.facebook.com/?nocaa=1" target="_blank">
+                            <i class="fab fa-facebook-f fa-2x"></i>
+                        </a>
+                        <a class="footer-link" href="https://twitter.com/home" target="_blank">
+                            <i class="fab fa-twitter fa-2x"></i>
+                        </a>
+                        <a class="footer-link" href="https://www.tiktok.com/ru-RU//" target="_blank">
+                            <i class="fab fa-tiktok fa-2x"></i>
+                        </a>
+                        <a class="footer-link" href="https://www.youtube.com/" target="_blank">
+                            <i class="fab fa-youtube fa-2x"></i>
+                        </a>
+                    </div>
+                    <a href="#" class="footer-copyright">
+                        <p>© ExployIT Theme</p>
+                    </a>
+                </div>
+                <!-- /.header-inner -->
+            </div>
+            <!-- /.container -->
+        </footer>
+        <!-- /.header -->
+
+        <!-- MODAL JS -->
+        <div class="modal">
+            <div class="modal-dialog"></div>
+        </div>
+    </div>
+    <!-- /.page -->
+
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/38b9d0fe79.js" crossorigin="anonymous"></script>
+
+    <!-- JS -->
+    <script src="./dist/js/bundle.js"></script>
+</body>
+
+</html>
